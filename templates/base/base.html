@@ -1,0 +1,22 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{%block titulo%}{%endblock titulo %}</title>
+	{%block CSS%}
+	<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}">
+	{%endblock CSS%}
+	{%block JS%}
+	<script src="{% static "js/bootstrap.js" %}">
+</script>{%endblock JS%}
+</head>
+<body>
+
+{%block navegacion%}
+{%endblock navegacion%}
+
+{%block contenido%}
+{%endblock contenido%}
+
+</body>
+</html>

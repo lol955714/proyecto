@@ -1,0 +1,25 @@
+{%extends "base/base.html"%}
+{%block contenido%}
+<input type="button" value="Regresar"> 
+<select name="tipo">
+	<option value="1">carnes</option>
+	<option value="2">quesos</option>
+	<option value="3">Bebida</option>
+</select>
+<table>
+<tr>
+	<th>nombre</th>
+	<th>temperatura minima</th>
+	<th>temperatura maxima</th>
+	<th>ingreso</th>
+	<th>caduce</th>
+</tr>
+<tr>
+	<td>queso</td>
+	<td>-90</td>
+	<td>90</td>
+	<td>2/4/4</td>
+	<td>3/5/5</td>
+</tr>
+</table>
+{%endblock contenido%}

@@ -1,0 +1,34 @@
+{%extends "base/base.html"%}
+{%block contenido%}
+<div>
+	<input type="button" value="Regresar"> 
+</div>
+<div>
+	<label>incidencias reportadas</label>
+</div>
+<div>
+	<select name="tipo">
+	<option value="1">en cola</option>
+	<option value="2">en progreso</option>
+	<option value="3">finalizadas</option>
+
+
+	
+</select>
+<table>
+	<tr>
+		<th>objetivo</th>
+		<th>reportada por</th>
+		<th>fecha reporte</th>
+		<th>prioridad</th>
+	</tr>
+	<tr>
+		<td>carne</td>
+		<td>empleado en turno</td>
+		<td>dd/mm/aa</td>
+		<td>urgente</td>
+	</tr>
+</table>
+</div>
+
+{%endblock contenido%}
